@@ -1,0 +1,7 @@
+addJava "-Dcom.sun.management.jmxremote"
+addJava "-Dcom.sun.management.jmxremote.ssl=false"
+addJava "-Dcom.sun.management.jmxremote.authenticate=false"
+addJava "-Dcom.sun.management.jmxremote.rmi.port=9010"
+addJava "-Dcom.sun.management.jmxremote.port=9010"
+addJava "-Djava.rmi.server.hostname=10.1.29.4"
+addJava "-XX:NativeMemoryTracking=summary"
